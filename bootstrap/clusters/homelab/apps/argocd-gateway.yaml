@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/<TON-UTILISATEUR>/homelab.git
+    repoURL: https://github.com/mahdidridi89/homelab.git
     targetRevision: HEAD
     path: infrastructure/networking/argocd-gateway
 
