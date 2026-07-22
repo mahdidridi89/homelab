@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/<UTILISATEUR_GITHUB>/homelab.git
+    repoURL: https://github.com/mahdidridi89/homelab.git
     targetRevision: HEAD
     path: infrastructure/networking/gateway-api
 
