@@ -1,8 +1,29 @@
+# Cilium utilise l'IPAM Kubernetes.
 ipam:
   mode: kubernetes
 
+# kube-proxy reste actif pour le moment.
 kubeProxyReplacement: false
 
+cluster:
+  name: homelab
+
+operator:
+  # Un seul replica car le cluster n'a qu'un worker actuellement.
+  replicas: 1
+
+# Encapsulation VXLAN entre les nœuds.
+routingMode: tunnel
+tunnelProtocol: vxlan
+
+# Talos monte déjà cgroup.
+cgroup:
+  autoMount:
+    enabled: false
+  hostRoot: /sys/fs/cgroup
+
+# Capabilities compatibles avec Talos.
+# SYS_MODULE est volontairement absent.
 securityContext:
   capabilities:
     ciliumAgent:
@@ -17,12 +38,8 @@ securityContext:
       - FOWNER
       - SETGID
       - SETUID
+
     cleanCiliumState:
       - NET_ADMIN
       - SYS_ADMIN
       - SYS_RESOURCE
-
-cgroup:
-  autoMount:
-    enabled: false
-  hostRoot: /sys/fs/cgroup
