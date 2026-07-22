@@ -1,0 +1,32 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: cilium
+  namespace: argocd
+spec:
+  project: default
+
+  sources:
+    # Chart Helm officiel Cilium.
+    - repoURL: https://helm.cilium.io/
+      chart: cilium
+      targetRevision: 1.19.6
+      helm:
+        # Même nom que la release Helm actuellement installée.
+        releaseName: cilium
+        valueFiles:
+          - $values/infrastructure/cilium/values.yaml
+
+    # Dépôt Git contenant nos valeurs Helm.
+    - repoURL: https://github.com/mahdidridi89/homelab.git
+      targetRevision: main
+      ref: values
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: kube-system
+
+  syncPolicy:
+    automated:
+      prune: false
+      selfHeal: false
