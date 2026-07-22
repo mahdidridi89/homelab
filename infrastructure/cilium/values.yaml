@@ -4,7 +4,6 @@ ipam:
 
 # kube-proxy reste actif pour le moment.
 kubeProxyReplacement: false
-
 cluster:
   name: homelab
 
@@ -15,7 +14,8 @@ operator:
 # Encapsulation VXLAN entre les nœuds.
 routingMode: tunnel
 tunnelProtocol: vxlan
-
+gatewayAPI:
+  enabled: true
 # Talos monte déjà cgroup.
 cgroup:
   autoMount:
