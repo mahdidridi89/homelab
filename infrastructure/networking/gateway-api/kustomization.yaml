@@ -4,4 +4,4 @@ kind: Kustomization
 resources:
   # Gateway API Standard Channel.
   # Version volontairement figée pour assurer la reproductibilité.
-  - https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.6.1/standard-install.yaml
+    - https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.5.1/experimental-install.yaml

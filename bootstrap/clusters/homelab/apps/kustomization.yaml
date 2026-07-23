@@ -5,3 +5,4 @@ resources:
   - cilium.yaml
   - gateway-api.yaml
   - argocd-gateway.yaml
+  - load-balancer.yaml
