@@ -2,8 +2,12 @@
 ipam:
   mode: kubernetes
 
-# kube-proxy reste actif pour le moment.
-kubeProxyReplacement: false
+# Cilium remplace kube-proxy pour la gestion des Services Kubernetes.
+kubeProxyReplacement: true
+
+# API Kubernetes locale exposée par KubePrism sur chaque nœud Talos.
+k8sServiceHost: localhost
+k8sServicePort: 7445
 cluster:
   name: homelab
 
