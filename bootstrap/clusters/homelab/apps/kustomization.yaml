@@ -6,3 +6,4 @@ resources:
   - gateway-api.yaml
   - argocd-gateway.yaml
   - load-balancer.yaml
+  - monitoring.yaml
