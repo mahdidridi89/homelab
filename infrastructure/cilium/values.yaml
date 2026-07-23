@@ -8,6 +8,18 @@ kubeProxyReplacement: true
 # API Kubernetes locale exposée par KubePrism sur chaque nœud Talos.
 k8sServiceHost: localhost
 k8sServicePort: 7445
+
+
+l2announcements:
+  enabled: true
+
+externalIPs:
+  enabled: true
+
+k8sClientRateLimit:
+  qps: 20
+  burst: 40
+
 cluster:
   name: homelab
 
