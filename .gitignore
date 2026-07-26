@@ -1,0 +1,20 @@
+# Talos secrets
+talos/talsecret.yaml
+talos/talosconfig
+
+# Generated Talos configs
+talos/generated/
+
+# Kubernetes local configs
+kubeconfig
+*.kubeconfig
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+
+# Generated Talos configs
+talos/generated/

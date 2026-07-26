@@ -1,0 +1,22 @@
+clusterName: konoha
+
+talosVersion: v1.13.7
+kubernetesVersion: v1.36.2
+
+endpoint: https://192.168.1.10:6443
+
+domain: cluster.local
+patches:
+  - "@./patches/cni-none.yaml"
+  - "@./patches/disable-kube-proxy.yaml"
+
+nodes:
+  - hostname: naruto
+    ipAddress: 192.168.1.10
+    installDisk: /dev/sda
+    controlPlane: true
+
+  - hostname: kakashi
+    ipAddress: 192.168.1.12
+    installDisk: /dev/sda
+    controlPlane: false
