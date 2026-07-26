@@ -1,0 +1,1515 @@
+    1  server
+    2  ping dc24cls026.hds.inserm.fr
+    3  ping dc24cls026.inserm.fr
+    4  ping dc24cls026
+    5  nslookup 10.106.64.4
+    6  ssh root@10.108.123.13
+    7  ssh root@10.108.123.13
+    8  ping dc5vms226.hds.inserm.fr
+    9  ping dc5vms227.hds.inserm.fr
+   10  ping dc5vms228.hds.inserm.fr
+   11  ping 10.108.123.21
+   12  ping dc5vmd217.hds.inserm.fr
+   13  ping dc5vms153.hds.inserm.fr
+   14  ping dc6vms006.hds.inserm.fr
+   15  ping dc6vms007.hds.inserm.fr
+   16  ping cloud.inserm.fr
+   17  sudo su
+   18  nslookup dc5vms229.hds.inserm.fr
+   19  ssh root@10.108.123.11
+   20  ssh root@10.108.123.11
+   21  ssh root@10.108.123.11
+   22  ssh root@10.108.123.11
+   23  ssh infras.dsi@10.252.140.10
+   24  ssh sys-infoger@10.108.21.6
+   25  ssh root@10.108.123.12
+   26  sshroot@dc6vms028.hds.inserm.fr
+   27  ssh root@dc6vms028.hds.inserm.fr
+   28  ssh root@dc6vms028.hds.inserm.fr
+   29  ssh root@dc6vms028.hds.inserm.fr
+   30  ssh root@dc6vms028.hds.inserm.fr
+   31  ssh root@dc6vms028.hds.inserm.fr
+   32  ssh root@dc6vms028.hds.inserm.fr
+   33  ssh root@dc5vms219.hds.inserm.fr
+   34  ping pod.inserm.fr
+   35  ssh ssh_user@10.106.64.11
+   36  ssh user_ansible@10.106.64.11
+   37  ssh user_ansible@10.106.64.11
+   38  ssh user_ansible@10.106.64.11
+   39  ssh infoger@10.106.64.11
+   40  ssh usr_ansible@10.106.64.11
+   41  ssh infoger@dc2vms198.inserm.fr
+   42  ping dc24cls053.inserm.fr
+   43  ssh usr_ansible@dc24cls053.inserm.fr
+   44  ssh infoger@dc2vms197.inserm.fr
+   45  ping recette.pepr-santenum.fr
+   46  ping recette.pepr-sams.fr
+   47  ping recette.pepr-sams.fr
+   48  ping recette.pepr-sams.fr
+   49  ping recette.pepr-sams.fr
+   50  ping recette.pepr-sams.fr
+   51  ping recette.pepr-sams.fr
+   52  nslookup recette.pepr-sams.fr
+   53  ping recette.pepr-sams.fr
+   54  ping recette.pepr-sams.fr
+   55  ping recette.pepr-sams.fr
+   56  ping recette.pepr-sams.fr
+   57  sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+   58  ping recette.pepr-sams.fr
+   59  ping recette.pepr-sams.fr
+   60  nslookup recette.pepr-sams.fr
+   61  ping pepr-biotherapies.fr
+   62  ping inserm.fr
+   63  nslookup inserm.fr
+   64  ping pepr-sams.fr
+   65  ping pepr-biotherapies.fr
+   66  ping pepr-biotherapies.fr
+   67  ping pepr-biotherapies.fr
+   68  ping pepr-biotherapies.fr
+   69  ping pepr-biotherapies.fr
+   70  nslookup pepr-biotherapies.fr
+   71  nslookup pepr-biotherapies.fr
+   72  ping pepr-biotherapies.fr
+   73  ping pepr-biotherapies.fr
+   74  ping pepr-biotherapies.fr
+   75  ping pepr-biotherapies.fr
+   76  ping pepr-biotherapies.fr
+   77  ping pepr-biotherapies.fr
+   78  ping pepr-biotherapies.fr
+   79  ping pepr-biotherapies.fr
+   80  ping pepr-biotherapies.fr
+   81  ping pepr-biotherapies.fr
+   82  ping pepr-biotherapies.fr
+   83  ssh infras.dsi@10.252.140.10
+   84  ssh usr_ansible@10.106.64.5
+   85  sudo port install putty\n
+   86  sudo xcodebuild –license
+   87  sudo port –v self-update
+   88  sudo su
+   89  ssh sys-infoger@dc24vms322
+   90  ssh sys-infoger@dc24vms322.inserm.fr
+   91  vim /Users/dridi/.ssh/known_hosts
+   92  ssh sys-infoger@dc24vms322.inserm.fr
+   93  telnet DC1PHS019.inserm.fr 1433
+   94  ping DC24VMS332.inserm.fr
+   95  ping jonquille.inserm.fr
+   96  ping hamameleis.inserm.fr
+   97  ping hamamelise.inserm.fr
+   98  ping hamamelis.inserm.fr
+   99  ping dc1phs021
+  100  ping dc1phs021.inserm.fr
+  101  ping remote.inserm.fr
+  102  ping ansible01.inserm.ffr
+  103  ping ansible01.inserm.fr
+  104  nslookup 10.249.140.20
+  105  \nrdesktop -u 'Interactive@WAC1:RDP:AUTORISATION_spi-infoger-systeme:_OTP_d8a8e7053f53428da3091b17b507ba63' 'bastion-log.inserm.fr:3389' -N -g 1024x768 -a 16 -x 0x80 -r clipboard:CLIPBOARD\n
+  106  ip a
+  107  ifconfig
+  108  ping share-preprod.inserm.fr
+  109  ping DRSXB-SRV-AADC.inserm.fr
+  110  ping 10.249.120.15
+  111  ping 10.254.120.15
+  112  route print
+  113  route 
+  114  route --help
+  115  route -h
+  116   route -n
+  117  sudo su
+  118  ping 192.168.0.15
+  119  nslookup 192.168.0.15
+  120  java -v
+  121  java -version
+  122  sudo su
+  123  sudo su
+  124  ssh usr_hardenning@10.102.110.173
+  125  ssh usr_hardening@10.102.110.173
+  126  ping dc24vms301.inserm.fr
+  127  ping dc24vms300.inserm.fr
+  128  ifconfig
+  129  ifconfig
+  130  ping 192.168.0.15
+  131  ssh wadadmin@dc24vms006.inserm.fr
+  132  ssh wadadmin@dc24vms006.inserm.fr -p 2242
+  133  ssh wabadmin@dc24vms006.inserm.fr -p 2242
+  134  ssh wabadmin@dc24vms006.inserm.fr -p 2242
+  135  ssh wabadmin@dc24vms006.inserm.fr -p 2242
+  136  ping file.cloud.inserm.fr
+  137  ping dc24vms364.inserm.fr
+  138  ping file.cloud.inserm.fr
+  139  files file.cloud.inserm.fr
+  140  sftp file.cloud.inserm.fr
+  141  ping dc24vms239.inserm.fr
+  142  ping dc24vms239.inserm.fr
+  143  ping dc24vms239.inserm.fr
+  144  ping dc24vms239.inserm.fr
+  145  ping dc24vms239.inserm.fr
+  146  ping dc24vms239.inserm.fr
+  147  ping dc24vms239.inserm.fr
+  148  ping dc24vms239.inserm.fr
+  149  ping dc24vms239.inserm.fr
+  150  ping dc24vms239.inserm.fr
+  151  ping dc24vms239.inserm.fr
+  152  ping dc24vms239.inserm.fr
+  153  ping dc24vms239.inserm.fr
+  154  ping dc24vms239.inserm.fr
+  155  ping dc24vms239.inserm.fr
+  156  ping dc24vms239.inserm.fr
+  157  ping dc24vms239.inserm.fr
+  158  ping dc24vms239.inserm.fr
+  159  ping dc24vms239.inserm.fr
+  160  ping dc24vms126.inserm.fr
+  161  ping DC2VMS090.inserm.fr
+  162  ping analytics-preprod.inserm.fr
+  163  ping analytics-recette.inserm.fr
+  164  ping analytics-preprod-admin.inserm.fr
+  165  ping analytics-recette-admin.inserm.fr
+  166  nslookup 10.102.110.76
+  167  ping 10.106.116.1
+  168  ping 10.106.116.10
+  169  ssh sys-infoger@dc2vms226.inserm.fr
+  170  ssh sys-infoger@dc2vms226.inserm.fr
+  171  sudo su
+  172  ls
+  173  ./install.sh
+  174  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/dridi/.zprofile
+  175  /opt/homebrew/bin/brew install telnet
+  176  sudo
+  177  sudo su
+  178  xcode-select --install\n
+  179  softwareupdate
+  180  softwareupdate -i 
+  181  softwareupdate -i xcode-select
+  182  softwareupdate -i telnet
+  183  ssh wabadmin@dc7vms013 -p 2242
+  184  ssh wabadmin@dc7vms013.inserm.fr -p 2242
+  185  ping patate.inserm.fr
+  186  ping dc3vms002.inserm.fr
+  187  ping dc1phs013.inserm.fr
+  188  ping dc1phs013-cadmin.inserm.fr
+  189  ping sirene.inserm.fr
+  190  ping adlin-science.inserm.fr
+  191  ping dc2vms259
+  192  ping dc2vms259.inserm.fr
+  193  ping adlin-test.inserm.fr
+  194  ping tools.adelin-sience.inserm.fr
+  195  ping tools.adlin-science.inserm.fr
+  196  ssh sys-infoger@10.106.9.10
+  197  ping cloud.inserm.fr
+  198  ping cloud.inserm.fr
+  199  ping adlin-science.inserm.fr
+  200  ssh usr_ansible@10.106.72.41
+  201  ssh sys-infoger@10.108.20.6
+  202  ping dc7-tanzu.inserm.fr
+  203  ping dc7-tanzu.inserm.fr
+  204  ping dc7-tanzu.inserm.fr
+  205  ping dc7-tanzu.inserm.fr
+  206  ping dc7-tanzu.inserm.fr
+  207  ping dc7-tanzu.inserm.fr
+  208  ping dc7-tanzu.inserm.fr
+  209  ping dc7-tanzu.inserm.fr
+  210  ping dc7-tanzu.inserm.fr
+  211  ping dc7-tanzu.inserm.fr
+  212  ping dc7-tanzu.inserm.fr
+  213  ping dc7-tanzu.inserm.fr
+  214  ping dc7-tanzu.inserm.fr
+  215  ping dc7-tanzu.inserm.fr
+  216  sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+  217  ping dc7-tanzu.inserm.fr
+  218  ping dc7-harbor.inserm.fr
+  219  ping safir2.inserm.fr
+  220  sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+  221  ping safir2.inserm.fr
+  222  ping safir2.inserm.fr
+  223  ping cloud.inserm.fr
+  224  cat /etc/hosts
+  225  nslookup peprrc1a1
+  226  ping dc12phc031.inserm.fr
+  227  ping dc12phc031.inserm.fr
+  228  ping dc12phc033.inserm.fr
+  229  ssh dc24cls139.inserm.fr
+  230  ping dc24cls139.inserm.fr
+  231  ssh usr_ansible@dc24cls139.inserm.fr
+  232  ping pepr-biotherapies.fr
+  233  ssh elfe@10.108.21.6
+  234  ssh elfe@10.108.13.5
+  235  ping dc12phc031.inserm.fr
+  236  ping dc12phc031.inserm.fr
+  237  ssh usr_ansible@dc24cls139
+  238  ssh usr_ansible@dc24cls139.inserm.fr
+  239  rout
+  240  route
+  241  route -a
+  242  ping mtmrc1a1.inserm.fr
+  243  ping mtmrec1a1
+  244  ping mtmrec1a1.inserm.fr
+  245  analytics-recette.inserm.fr
+  246  ping analytics-recette.inserm.fr
+  247  ping pitaya.inserm.fr
+  248  ping ylang.inserm.fr
+  249  ping eparapheur.inserm.fr
+  250  ssh sys-infoger@10.108.21.6
+  251  ping dc12phc033.inserm.fr
+  252  ping dc12phc033.inserm.fr
+  253  ping dc12phc033.inserm.fr
+  254  ssh infras.dsi@10.252.140.10
+  255  ssh usr_ansible@10.102.110.173
+  256  vim /Users/dridi/.ssh/known_hosts -n59
+  257  vim /Users/dridi/.ssh/known_hosts -n 59
+  258  ssh usr_ansible@10.102.110.173
+  259  ssh infoger@10.102.110.173
+  260  nslookup 10.105.102.84
+  261  ping dc24vms080.inserm.fr
+  262  nslookup 10.102.100.56
+  263  ping 10.254.141.81
+  264  ping 10.254.141.85
+  265  ping 10.254.141.86
+  266  nslookup 10.106.116.11
+  267  nslookup 192.168.19.130
+  268  ping imap.inserm.fr
+  269  telnet smtp.inserm.fr 25
+  270  telnet smtp.inserm.fr 587
+  271  telnet smtp.inserm.fr 465
+  272  nslookup gedfi.inserm.fr
+  273  ping ged.inserm.fr
+  274  ping seigle.inserm.fr
+  275  ping seigle.inserm.fr
+  276  ping seigle.inserm.fr
+  277  ping seigle.inserm.fr
+  278  ping seigle.inserm.fr
+  279  ping seigle.inserm.fr
+  280  ping seigle.inserm.fr
+  281  telnet mail.inserm.fr 993
+  282  telnet smtp.inserm.fr 587
+  283  ping docdsi.inserm.fr
+  284  javaws
+  285  ping dc24phc011-cadmin.inserm.fr
+  286  ping panorama.inserm.fr
+  287  ssh sshuser@10.108.123.11
+  288  ping 10.102.102.232
+  289  ping 10.102.102.238
+  290  ping 10.102.102.239
+  291  ping 10.102.102.240
+  292  ping dc24vms371.inserm.fr
+  293  ping DC24VMS369.inserm.fr
+  294  ping old.anrs.fr
+  295  ping old.anrs.inserm.fr
+  296  ping old.anrs.fr
+  297  telnet old.anrs.inserm.fr 80
+  298  telnet old.anrs.inserm.fr 443
+  299  ping old.anrs.fr
+  300  ping DC24VMS373.inserm.fr
+  301  ping DC24VMS373.inserm.fr
+  302  ping dc24vms372.inserm.fr
+  303  ping www.elfeo.fr
+  304  ping www.eva3.inserm.fr
+  305  ping dc2vms269.inserm.fr
+  306  ping dc24vms067.inserm.fr
+  307  ping old.anrs.fr
+  308  ping old.anrs.fr
+  309  ping old.anrs.fr
+  310  ping betoine.inserm.fr
+  311  ping betoine.inserm.fr
+  312  ping mangoustan.inserm.fr
+  313  ssh usr_hardening@dc5vms220.hds.inserm.fr
+  314  ssh root@dc5vms220.hds.inserm.fr
+  315  ssh root@dc5vms220.hds.inserm.fr
+  316  ssh sshuser@dc5vms220.hds.inserm.fr
+  317  ssh root@dc5vms220.hds.inserm.fr
+  318  ssh sshuser@dc5vms220.hds.inserm.fr
+  319  ssh sshuser@dc5vms220.hds.inserm.fr
+  320  ssh sshuser@dc5vms218.hds.inserm.fr
+  321  ssh sshuser@dc5vms218.hds.inserm.fr
+  322  ssh sshuser@dc5vms218.hds.inserm.fr
+  323  openssl req -new -newkey rsa:2048 -nodes -keyout dc5vms216.key -out dc5vms216.csr
+  324  ls
+  325  cat dc5vms216.csr
+  326  cat dc5vms216.key
+  327  openssl req -new -newkey rsa:2048 -nodes -keyout dc5vms225.key -out dc5vms225.csr
+  328  ll
+  329  ls
+  330  cat dc5vms225.csr
+  331  cat dc5vms225.key
+  332  openssl req -new -newkey rsa:2048 -nodes -keyout vrops.key -out vrops.csr
+  333  cat vrops.csr
+  334  cat vrops.key
+  335  ssh root
+  336  ssh root@c6vms033.hds.inserm.fr
+  337  ssh root@dc6vms033.hds.inserm.fr
+  338  ssh root@dc6vms034.hds.inserm.fr
+  339  ssh sshuser@dc5vms219.hds.inserm.fr
+  340  ssh dc5vms230.hds.inserm.fr
+  341  ssh root@dc5vms230.hds.inserm.fr
+  342  ssh root@dc5vms230.hds.inserm.fr
+  343  ssh root@dc5vms227.hds.inserm.fr
+  344  ssh root@dc5vms228.hds.inserm.fr
+  345  ssh root@dc5vms228.hds.inserm.fr
+  346  ping dc5vms228.hds.inserm.fr
+  347  ssh root@dc5vms228.hds.inserm.fr
+  348  ssh root@dc5vms228.hds.inserm.fr -vvvv
+  349  telnet dc5vms228.hds.inserm.fr 22
+  350  telnet dc5vms226.hds.inserm.fr 22
+  351  ping 10.102.6.96
+  352  ssh infoger@10.102.100.187
+  353  ssh infoger@10.102.100.187
+  354  ssh infoger@10.102.100.187
+  355  ssh infoger@10.102.100.187
+  356  ssh root@dc5vms226.hds.inserm.fr
+  357  ssh root@dc5vms228.hds.inserm.fr
+  358  ssh root@dc5vms226.hds.inserm.fr
+  359  ping nsx-manager.fc.inserm.fr
+  360  ping dc5vms210.hds.inserm.fr
+  361  ssh sshuser@dc5vms226.hds.inserm.fr
+  362  ssh root@dc5vms226.hds.inserm.fr
+  363  ssh root@dc5vms227.hds.inserm.fr
+  364  ssh root@dc5vms228.hds.inserm.fr
+  365  ssh root@dc5vms229.hds.inserm.fr
+  366  ssh root@dc5vms230.hds.inserm.fr
+  367  ssh root@dc6vms033.hds.inserm.fr
+  368  ping dc6vms033.hds.inserm.fr
+  369  ssh root@dc6vms033.hds.inserm.fr
+  370  ping webmail.inserm.fr
+  371  ping webmail.inserm.fr
+  372  ssh sysprod.dsi@10.252.140.10
+  373  ssh sysprod.dsi@10.252.140.10
+  374  ping dc24vms370.inserm.fr
+  375  ssh infoger@10.102.100.187
+  376  ping webmail.inserm.fr
+  377  ping webmail.inserm.fr
+  378  sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+  379  ping webmail.inserm.fr
+  380  ping webmail.inserm.fr
+  381  sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+  382  ping webmail.inserm.fr
+  383  ping webmail.inserm.fr
+  384  ping webmail.inserm.fr
+  385  ssh dc5vms226.hds.inserm.fr
+  386  ssh rootdc5vms226.hds.inserm.fr
+  387  ssh root@dc5vms226.hds.inserm.fr
+  388  ssh root@dc5vms227.hds.inserm.fr
+  389  ssh root@dc5vms228.hds.inserm.fr
+  390  ps ping smtp-mtp2.inserm.fr
+  391  ping smtp-mtp2.inserm.fr
+  392  ssh sysprod.dsi@10.252.140.10
+  393  ping dc4stc03.inserm.fr
+  394  ping 10.102.6.96
+  395  ping dc4stc03-gedfi-nfs
+  396  ping dc4stc03-gedfi-nfs.inserm.fr
+  397  ping old.anrs.fr
+  398  ping old.anrs.inserm.fr
+  399  ping dc2phs024.inserm.fr
+  400  ping dc2phs024.inserm.fr
+  401  ping dc2phs024-cadmin.inserm.fr
+  402  ssh infoger@192.168.19.181
+  403  ping dc1phs024.inserm.fr
+  404  ping dc1phs024.inserm.fr
+  405  ping dc4stc03-gedfi-nfs.inserm.fr
+  406  ping dc4stc03-gedfi-nfs.inserm.fr
+  407  ping dc4stc03-gedfi-nfs.inserm.fr
+  408  ping dc4stc03-gedfi-nfs.inserm.fr
+  409  ping dc4stc03-gedfi-nfs.inserm.fr
+  410  nslookup 10.249.140.21
+  411  ssh root@dc7vms001.inserm.fr
+  412  ssh root@dc7vms001.inserm.fr
+  413  ssh infras.dsi@10.252.140.10
+  414  ping dc4stc03.inserm.fr
+  415  ssh root@dc2phc041
+  416  ssh root@dc2phc041.inserm.fr
+  417  ping dc24cls178.inserm.fr
+  418  ping dc4stc03.inserm.fr
+  419  ping dc5bks001
+  420  ping dc5bks001.inserm.fr
+  421  ping dc4stc03.inserm.fr
+  422  ping adn.inserm.fr
+  423  sudo su
+  424  ping dc4stc03.inserm.fr
+  425  ssh sysprod.dsi@10.252.140.10
+  426  nslookup 10.102.6.96
+  427  ssh root@dc7vms001.inserm.fr
+  428  ssh root@dc7vms001.inserm.fr
+  429  scp root@dc7vms001.inserm.fr
+  430  scp root@dc7vms001.inserm.fr Downloads/.
+  431  scp root@dc7vms001.inserm.fr:/storage/log/vc-dc7vms001.inserm.fr-2024-03-25--18.20-65503.tgz Downloads/.
+  432  ssh root@dc5vms226.hds.inserm.fr
+  433  ssh root@dc5vms228.hds.inserm.fr
+  434  ssh root@dc5vms227.hds.inserm.fr
+  435  ssh root@dc5vms226.hds.inserm.fr
+  436  ssh root@dc5vms226.hds.inserm.fr
+  437  ssh root@dc5vms229.hds.inserm.fr
+  438  ssh root@dc5vms229.hds.inserm.fr
+  439  ssh sysprod.dsi@dc2stc03.inserm.fr
+  440  ssh sysprod.dsi@dc4stc03.inserm.fr
+  441  ssh sysprod.dsi@dc4stc03.inserm.fr
+  442  ssh root@dc7vms002.inserm.fr
+  443  ssh mystic@dc7vms002.inserm.fr
+  444  ping smtpi-dc24.inserm.fr
+  445  ping smtpi-dc24.inserm.fr
+  446  ping smtpi-dc24.inserm.fr
+  447  ssh mahdi.dridi@bastion-mtp.inserm.fr
+  448  ssh mahdi.dridi@bastion-mtp.inserm.fr
+  449  ssh sysprod@10.252.140.10
+  450  ssh sysprod.dsi@10.252.140.10
+  451  ssh sysprod.dsi@dc4stc03.inserm.fr
+  452  ssh sysprod.dsi@10.252.140.10
+  453  ping 10.248.140.112
+  454  networkQ
+  455  ping mail.inserm.fr
+  456  ping autisme-neurodev.org
+  457  nslookup DC2VMS239.inserm.fr
+  458  ping dc24cls179.inserm.fr
+  459  ssh root@dc7vms001.inserm.fr
+  460  ping 10.102.6.96
+  461  ping 10.102.6.96
+  462  ping smtp-mtp.inserm.fr
+  463  ping smtp-mtp.inserm.fr
+  464  ping smtp-mtp.inserm.fr
+  465  ping smtpi-dc24.inserm.fr
+  466  ping smtp1-vjf.inserm.fr
+  467  ping ldap-vjf.inserm.fr
+  468  ssh mahdi.dridi@bastion-mtp.inserm.fr
+  469  ssh sysprod.dsi@dc4sct03.inserm.fr
+  470  ssh sysprod.dsi@dc4stc03.inserm.fr
+  471  ping anrs.fr
+  472  ping anrs.fr
+  473  ping www.anrs.fr
+  474  ping dc24vms373.inserm.fr
+  475  ping dc7vms046.inserm.fr
+  476  ping dc7vms047.inserm.fr
+  477  ping dc7vms048.inserm.fr
+  478  ping 10.103.35.10
+  479  ping 10.103.35.11
+  480  ping 10.103.35.12
+  481  ping dc24vms375.inserm.fr
+  482  ping dc24vms375.inserm.fr
+  483  ping dc24vms375.inserm.fr
+  484  ssh sysprod@dc4stc0".inserm.fr\n\n\n\n\n
+  485  ssh sysprod.dsi@dc4stc03.inserm.fr
+  486  ssh sysprod.dsi
+  487  ssh sysprod.dsi@dc4s03.inserm.fr
+  488  ssh sysprod.dsi@dc4stc03.inserm.fr
+  489  nslookup 10.102.100.241
+  490  ping dc24vms374.inserm.fr
+  491  ping 10.102.100.242
+  492  ping dc24vms374.inserm.fr
+  493  nslookup 10.102.100.242
+  494  ping dc24vms374.inserm.fr
+  495  ping 10.102.100.236
+  496  ping dc24vms374.inserm.fr
+  497  ping 10.102.100.226
+  498  ping 10.106.140.22
+  499  ping 10.103.35.1
+  500  ping dc7vms046
+  501  ping dc7vms046.inserm.fr
+  502  ping dc7vms046.inserm.fr
+  503  ping anrs.fr
+  504  ping www.anrs.fr
+  505  ping dc24vms375.inserm.fr
+  506  ping dc24vms375.inserm.fr
+  507  ping dc24vms374.inserm.fr
+  508  ping cyberwatch.inserm.fr
+  509  ping DC24VMS371.inserm.fr
+  510  ping 10.102.100.151
+  511  ping 10.103.100.32
+  512  ping DC24VMS375.inserm.fr
+  513  ping api.amue.fr
+  514  ping fcrin-olga.org
+  515  sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+  516  ping www.fcrin-olga.org
+  517  ping www.fcrin-olga.org
+  518  nslookup www.fcrin-olga.org
+  519  ssh sysprod.dsi@dc4stc03.inserm.fr
+  520  ssh sysprod.dsi@dc4stc03.inserm.fr
+  521  ssh sysprod.dsi@dc4stc03.inserm.fr
+  522  ping 10.249.140.39
+  523  ping dc24vms378.inserm.fr
+  524  ping ibox.inserm.fr
+  525  subl Downloads/ndmpd.log
+  526  ping smtp-mtp.inserm.fr
+  527  nslookup 10.106.101.40
+  528  ssh sys-infoger@dc24vms374.inserm.fr
+  529  pi g pitaya.inserm.fr
+  530  ping pitaya.inserm.fr
+  531  ping ylang.inserm.fr
+  532  ping dc2vms288.inserm.fr
+  533  ping dc24vms370.inserm.fr
+  534  ping dc24vms370.inserm.fr
+  535  ping dc24phc023
+  536  ping dc24phc023.inserm.fr
+  537  ping dc24phc023.inserm.fr
+  538  ping dc24phc023.inserm.fr
+  539  ping dc24phc023.inserm.fr
+  540  ping dc24phc023.inserm.fr
+  541  ping dc24phc023.inserm.fr
+  542  ping dc24phc023.inserm.fr
+  543  ping dc24phc023.inserm.fr
+  544  ssh root@dc2vms027.inserm.fr
+  545  ping dc2vms027.inserm.fr
+  546  ping dc2vms027.inserm.fr
+  547  ssh root@dc2vms027.inserm.fr
+  548  ssh root@dc2vms027.inserm.fr
+  549  ping dc2vms027.inserm.fr
+  550  ssh root@dc2vms027.inserm.fr
+  551  ssh root@dc2vms027.inserm.fr
+  552  ssh root@dc2vms027.inserm.fr
+  553  ssh root@dc2vms027.inserm.fr
+  554  ll
+  555  ls
+  556  ls -l
+  557  sudo su
+  558  sudo su
+  559  ping dc2vms027.inserm.fr
+  560  ssh root@dc2vms027.inserm.fr
+  561  ssh root@dc2vms027.inserm.fr
+  562  ssh root@dc2vms027.inserm.fr
+  563  ping dc2vms027.inserm.fr
+  564  vim /Users/dridi/.ssh/known_hosts
+  565  ping dc2vms027.inserm.fr
+  566  ssh root@dc2vms027.inserm.fr
+  567  ssh root@dc2vms027.inserm.fr
+  568  ping dc2vms027.inserm.fr
+  569  ping dc2vms027.inserm.fr
+  570  ssh root@dc2vms027.inserm.fr
+  571  vim /Users/dridi/.ssh/known_hosts
+  572  ssh root@dc2vms027.inserm.fr
+  573  ssh root@dc2vms027.inserm.fr
+  574  ping dc2vms027.inserm.fr
+  575  nslookup 10.102.107.20
+  576  ssh dc24vms221.inserm.fr
+  577  ssh infoger@dc24vms221.inserm.fr
+  578  ssh sysprod.dsi@dc24stc03.inserm.fr
+  579  ssh sysprod.dsi@dc4stc03.inserm.fr
+  580  ping 10.102.110.21
+  581  ssh root@dc2vms027.inserm.fr
+  582  ping dc24vms010.inserm.fr
+  583  ping dc2vms295.inserm.f
+  584  ping dc2vms295.inserm.fr
+  585  ping dc2vms298.inserm.fr
+  586  ping solpr1f1.inserm.fr
+  587  ip 
+  588  ip a
+  589  ipconfig
+  590  ipconfig getifaddr
+  591  ipconfig getifaddr *
+  592  ipconfig getifaddr en0
+  593  ipconfig getifaddr en1
+  594  ipconfig /all
+  595  ipconfig | inet
+  596  ifconfig | inet
+  597  ifconfig
+  598  ping trille.inserm.fr
+  599  ping dc2vms298.inserm.fr
+  600  ping sarton.curie.net
+  601  sudo su
+  602  telnet uag.curie.net 443
+  603  curl https://uag.curie.net
+  604  curl §k https://uag.curie.net
+  605  curl -k https://uag.curie.net
+  606  man wget
+  607  sudo brew install wget
+  608  brew install wget
+  609  find / -name wget
+  610  sudo  find / -name wget
+  611  ping 192,168,150,131
+  612  ping 192.168.150.131
+  613  telnet 192.168.150.131 443
+  614  dig syapplsat01.curie.fr
+  615  dig syapplsat01.curie.fr 192.168.154.100
+  616  dig syapplsat01.curie.fr 10.3.0.200
+  617  cd /System/Volumes/Data/Users/dridi/Pictures/
+  618  ls
+  619  /System/Volumes/Data/Users/dridi/Pictures/
+  620  sudo /System/Volumes/Data/Users/dridi/Pictures/
+  621  sudo s
+  622  sudo su
+  623  pwd
+  624  cd ../..
+  625  ll
+  626  vim 2
+  627  mkdir git
+  628  cd git
+  629  git clone https://gitlab.curie.fr/ansible/inventory.git
+  630  git clone https://gitlab.curie.fr/ansible/playbooks.git
+  631  git clone https://gitlab.curie.fr/ansible/roles.git
+  632  ls -l
+  633  ll
+  634  cd roles
+  635  ll
+  636  ls
+  637  sudo brew install ansible
+  638  brew install ansible
+  639  pip3 install ansible-core
+  640  find / -name ansible-playbook
+  641  find / -name ansible-playbook* >/dev/null 2>&1
+  642  find / -name ansible-playbook >/dev/null 2>&1
+  643  brew install tmux
+  644  tmux
+  645  sudo su tmux
+  646  sudo tmux
+  647  tmux ls
+  648  sudo tmux ls
+  649  exit
+  650  exit
+  651  exit
+  652  exit
+  653  tmux
+  654  cd Desktop/git
+  655  ls
+  656  cd roles
+  657  ll
+  658  ls
+  659  git pull
+  660  cd ../inventory
+  661  cat staging
+  662  git pull
+  663  cd ../playbooks
+  664  ll
+  665  cat servres.yml
+  666  git pull
+  667  cat servres.yml
+  668  tmux
+  669  tmux ls
+  670  tmux
+  671  ls
+  672  cd playbooks
+  673  ls
+  674  git pull
+  675  ls
+  676  cd ../inventory/staging .
+  677  cp ../inventory/staging .
+  678  ls -ls
+  679  ls -lart
+  680  git add
+  681  git add *
+  682  git commit -m "add inventory"
+  683  git push
+  684  cat staging
+  685  sudo rm -rf /Applications/ReiBoot.app/
+  686  ssh mdridi@sarton.curie.net
+  687  ping sarton.curie.fr
+  688  defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}' && killall Dock\n
+  689  defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}' && killall Dock\n
+  690  ping cr-tro-1-200b-6772.curie.fr
+  691  ping mail.curie.fr
+  692  history
+  693  git pull
+  694  ll
+  695  ls -l
+  696  cd playbooks
+  697  ll
+  698  ls -l
+  699  git pull
+  700  git config --global credential.helper osxkeychain\n
+  701  git config --global credential.helper osxkeychain
+  702  git pull
+  703  ansible-galaxy init domain
+  704  ll
+  705  ls -l
+  706  cd domain
+  707  ll
+  708  ls -l
+  709  cd ..
+  710  git add *
+  711  git commit -a "add role domain"
+  712  git commit -m "add role domain"
+  713  git push
+  714  ls -l
+  715  touch callback.yml
+  716  git add *
+  717  git commit -m "add playbook callback"
+  718  git push
+  719  git pull
+  720  ping mail.curie.fr
+  721  cd Desktop
+  722  ls -l
+  723  rm -f Capture\ d\'écran\*
+  724  ls -l
+  725  rm -f Capture*
+  726  clS
+  727  clear
+  728  ipconfig
+  729  ipconfig man
+  730  man ipconfig
+  731  ifconfig
+  732  ps
+  733  cd /var/tmp
+  734  ls -lart
+  735  ls -lart
+  736  vim WirelessDiagnostics_N0WD23XWCY_2025-05-14_17.55.27.tar.gz
+  737  sudo reboot
+  738  ll
+  739  ls -l
+  740  cd playbooks
+  741  ls -l
+  742  git pull
+  743  mv servres.yml servers.yml
+  744  mv servers.yml callback.yml
+  745  cp -p callback.yml biws-conf.yml
+  746  vim biws-conf.yml
+  747  git add .
+  748  git commit -m "change playbook"
+  749  git push
+  750  git pull
+  751  ll
+  752  ls -l
+  753  git pull
+  754  git pull
+  755  git add .
+  756  git commit -m "modify packages role"
+  757  git pussh
+  758  git push
+  759  ls -l
+  760  cp -p biws-conf.yml biws-callback.yml
+  761  git add .
+  762  git commit -m "change realm role and create biws-callback playbook"
+  763  git push
+  764  git add .
+  765  git commit -m "modify biws-callback playbook"
+  766  git push
+  767  ping isi-paris-cdr-server-smb.curie.fr
+  768  exit
+  769  brew install duti
+  770  duti -s com.sublimetext.4 public.plain-text all\n
+  771  ssh root@biws0019.curie.fr
+  772  pwd
+  773  cd playbooks
+  774  git pull
+  775  git pull
+  776  git add .
+  777  git commit -m "change nfs version"
+  778  git push
+  779  git add .
+  780  git commit -m "change nfs version"
+  781  git add .
+  782  git commit -m "change nfs version"
+  783  git push
+  784  git pull
+  785  git add .
+  786  git commit -m "change ca-certificate role"
+  787  git push
+  788  ipa
+  789  ip a
+  790  ipconfig
+  791  ipconfig getifaddr
+  792  ipconfig a
+  793  man ipconfig
+  794  ifconfig
+  795  git pull
+  796  git credential-cache exit
+  797  git pull
+  798  git add .
+  799  git commit -m "add packages"
+  800  git push
+  801  ls -l
+  802  git add .
+  803  git commit -m "add packages"
+  804  git add .
+  805  git commit -m "add packages"
+  806  git add .
+  807  git commit -m "add packages"
+  808  git push
+  809  git pull
+  810  grep -r update *
+  811  git pull
+  812  git add .
+  813  git commit -m "modif playbook callback"
+  814  git push
+  815  git add .
+  816  git commit -m "modif playbook conf"
+  817  git push
+  818  git pull
+  819  git pull
+  820  git pull
+  821  sudo su
+  822  caffeinate 
+  823  pwd
+  824  git pull
+  825  ping 10.2.200.130
+  826  pwd
+  827  ls -l
+  828  git clone https://gitlab.curie.fr/ansible/servers.git
+  829  ls
+  830  cd servers
+  831  ls -l
+  832  ping vdi-ppit-21.curie.net
+  833  exit
+  834  pwd
+  835  cd /Users/dridi/Desktop/git/servers
+  836  pwd
+  837  git pull
+  838  pwd
+  839  git pull
+  840  git pull
+  841  cd /
+  842  ls
+  843  ls -l
+  844  cd Volumes
+  845  ls
+  846  cd SUNDATA
+  847  ll
+  848  ls
+  849  ls -la
+  850  powermetrics --samplers smc |grep -i "CPU die temperature"
+  851  sudo powermetrics --samplers smc |grep -i "CPU die temperature"
+  852  powermetrics -s thermal -n 1
+  853  sudo powermetrics -s thermal -n 1
+  854  ssh root@192.168.1.11
+  855  dmidecode -t memory
+  856  ssh root@192.168.1.11
+  857  vim /etc/hosts
+  858  sudo su
+  859  pwd
+  860  git pull
+  861  git config --global credential.helper osxkeychain
+  862  git pull
+  863  git pull
+  864  git pull
+  865  git add .
+  866  git add .
+  867  git add .
+  868  git commit -m "add kdi-public to CDR inventory"
+  869  git push
+  870  ls -l
+  871  touch default_conf.yaml
+  872  git add .
+  873  git commit -m "add default config playbook"
+  874  git push
+  875  git add .
+  876  git commit -m "modify kdi-public in CDR inventory"
+  877  git push
+  878  git add .
+  879  git commit -m "add staffcurie role"
+  880  git push
+  881  ping proxmox
+  882  ssh root@proxmox
+  883  vim /etc/hosts
+  884  sudo su
+  885  ssh hero@debian
+  886  ssh hero@debian
+  887  ssh root@proxmox
+  888  pwd
+  889  cd Desktop
+  890  ll
+  891  ls
+  892  mkdir bcp_disque
+  893  cd bcp_disque
+  894  ll
+  895  cd
+  896  cd -
+  897  scp root@proxmox:/mnt .
+  898  scp -r root@proxmox:/mnt .
+  899  cd ..
+  900  rm -rf bcp_disque
+  901  vim /etc/hosts
+  902  sudo su
+  903  exit
+  904  ssh root@proxmox
+  905  ssh root@proxmox
+  906  ssh root@nextcloud
+  907  ssh root@nextcloud
+  908  PWD
+  909  ll
+  910  git pull
+  911  git pull
+  912  git pull
+  913  git pull
+  914  git pull
+  915  git pull
+  916  telnet 192.168.1.228 8123
+  917  curl 192.168.1.228:8123
+  918  ssh hero@debain
+  919  cat /etc/resolv.conf
+  920  ping proxmox
+  921  ping debian
+  922  ssh hero@debian
+  923  brew install siderolabs/tap/talosctl
+  924  exit
+  925  ping 192.168.1.228
+  926  ssh hero@192.168.1.228
+  927  talosctl --version
+  928  talosctl version
+  929  talosctl gen config homelab https://192.168.1.10:6443
+  930  talosctl -n 192.168.1.10 get disks --insecure
+  931  ll
+  932  ls
+  933  talosctl apply-config -n 192.168.1.10 --insecure /Users/dridi/controlplane.yaml
+  934  talosctl apply-config -n 192.168.1.10 --insecure --file /Users/dridi/controlplane.yaml
+  935  talosctl bootstrap -n 192.168.1.10 -e 192.168.1.10
+  936  ls -l
+  937  talosctl bootstrap -n 192.168.1.10 -e 192.168.1.10 --talosconfig talosconfig
+  938  talosctl health -n 192.168.1.10 -e 192.168.1.10
+  939  talosctl health -n 192.168.1.10 -e 192.168.1.10 --talosconfig talosconfig
+  940  talosctl health -n 192.168.1.10 -e 192.168.1.10 --talosconfig talosconfig
+  941  talosctl health -n 192.168.1.10 -e 192.168.1.10 --talosconfig talosconfig
+  942  talosctl health -n 192.168.1.10 -e 192.168.1.10 --talosconfig talosconfig
+  943  talosctl kubeconfig .
+  944  talosctl -n 192.168.1.10 kubeconfig .
+  945  talosctl -n 192.168.1.10 -e 192.168.1.10 \\n  --talosconfig talosconfig \\n  kubeconfig .
+  946  ll
+  947  ls -l
+  948  vim kubeconfig
+  949  talosctl apply-config -n 192.168.1.12 --file worker.yaml
+  950  vim worker.yaml
+  951  talosctl apply-config -n 192.168.1.12 --file worker.yaml
+  952  vim worker.yaml
+  953  talosctl apply-config \\n  --nodes 192.168.1.12 \\n  --endpoints 192.168.1.12 \\n  --file worker.yaml \\n  --insecure
+  954  brew install kubectl
+  955  history
+  956  history 100
+  957  history
+  958  kubectl get nodes
+  959  pwd
+  960  mkdir -p ~/.talos\nmkdir -p ~/.kube\n\ncp talosconfig ~/.talos/config\ncp kubeconfig ~/.kube/config
+  961  ll
+  962  ls
+  963  ls -la
+  964  talosctl info
+  965  talosctl config info\nkubectl get nodes
+  966  talosctl edit machineconfig \\n  -n 192.168.1.10 \\n  -e 192.168.1.10
+  967  talosctl edit machineconfig \\n  -n 192.168.1.10 \\n  -e 192.168.1.10
+  968  kubectl get nodes
+  969  kubectl get pods -A
+  970  kubectl get node -o wide
+  971  kubectl cluster-info
+  972  vim controlplane.yaml
+  973  kubectl get nodes
+  974  kubectl get podes
+  975  kubectl get pods
+  976  kubectl get ns
+  977  export kubectl=k
+  978  k get ns
+  979  echo $kubectl
+  980  unset $kubectl
+  981  kubectl get ns
+  982  export k=kubectl
+  983  k get ns
+  984  alias k=kubectl
+  985  k get ns
+  986  ls -la
+  987  talosctl info
+  988  history 100
+  989  talosctl get machineconfig -n 192.168.1.10 -o yaml | grep -A5 cni
+  990  talosctl get machineconfig -n 192.168.1.10 -o yaml
+  991  talosctl config contexts
+  992  talosctl config info
+  993  echo $TALOSCONFIG
+  994  talosctl config endpoint 192.168.1.10
+  995  talosctl config node 192.168.1.10
+  996  talosctl config info
+  997  talosctl get machineconfig -n 192.168.1.10 -o yaml | grep -A5 cni
+  998  talosctl get machineconfig -n 192.168.1.10 -o yaml
+  999  brew install cilium-cli
+ 1000  su
+ 1001  cilium version
+ 1002  talosctl version
+ 1003  kubectl get ds -n kube-system
+ 1004  mkdir -p homelab/backup
+ 1005  talosctl get machineconfig -n 192.168.1.10 -o yaml > homelab/backup/controlplane-machineconfig.yaml
+ 1006  vim homelab/backup/controlplane-machineconfig.yaml
+ 1007  talosctl get machineconfig -n 192.168.1.12 -o yaml > homelab/backup/worker-machineconfig.yaml
+ 1008  vim cni-none.yaml
+ 1009  git clone https://github.com/mahdidridi89/homelab.git
+ 1010  ll
+ 1011  ls -lart
+ 1012  mv homelab homelab-1
+ 1013  git clone https://github.com/mahdidridi89/homelab.git
+ 1014  git clone https://github.com/mahdidridi89/homelab.git
+ 1015  git clone https://github.com/mahdidridi89/homelab.git
+ 1016  ssh-keygen -t rsa -b 4096 -C "mohamed.mahdi.dridi@gmail.com"
+ 1017  vim /Users/dridi/.ssh/id_rsa.pub
+ 1018  git@github.com:mahdidridi89/homelab.git
+ 1019  git clone git@github.com:mahdidridi89/homelab.git
+ 1020  ll
+ 1021  alias ll="ls -la"
+ 1022  ll
+ 1023  cd homelab
+ 1024  mkdir -p \\nbootstrap \\ndocs/{architecture,decisions,runbooks} \\ntalos/{patches,machineconfig} \\ninfrastructure/{cilium,ingress-nginx,cert-manager,tailscale,argocd,storage,monitoring} \\napplications/{nextcloud,immich,vaultwarden} \\nscripts
+ 1025  treereg
+ 1026  ls -lart 
+ 1027  touch \\nREADME.md \\n.gitignore \\ndocs/architecture/README.md \\ndocs/decisions/README.md \\ndocs/runbooks/README.md \\ntalos/README.md \\ninfrastructure/README.md \\napplications/README.md
+ 1028  tree -a
+ 1029  rm -rf *
+ 1030  ll
+ 1031  mkdir -p \\nbootstrap/{argocd,clusters/homelab} \\ndocs/{architecture,decisions,runbooks} \\ntalos/{patches,machineconfig} \\ninfrastructure/{networking/{cilium,ingress-nginx,tailscale},security/cert-manager,storage,monitoring} \\napplications/{nextcloud,immich,vaultwarden} \\nscripts
+ 1032  touch \\nREADME.md \\n.gitignore \\nbootstrap/README.md \\ndocs/README.md \\ndocs/architecture/README.md \\ndocs/decisions/README.md \\ndocs/runbooks/README.md \\ntalos/README.md \\ninfrastructure/README.md \\napplications/README.md
+ 1033  git add .
+ 1034  git commit -m "add arbo"
+ 1035  git push
+ 1036  mkdir infrastructure/{networking/{cilium,ingress-nginx,tailscale},security/cert-manager,storage,monitoring} 
+ 1037  ll
+ 1038  git add *
+ 1039  git commit -m "add arbo"
+ 1040  git push
+ 1041  cd infrastructure
+ 1042  ls
+ 1043  cd ..
+ 1044  mkdir -p talos/patches docs/decisions infrastructure/cilium
+ 1045  cat > talos/patches/cni-none.yaml <<'EOF'\ncluster:\n  network:\n    cni:\n      name: none\nEOF
+ 1046  cat talos/patches/cni-none.yaml
+ 1047  cat > docs/decisions/ADR-0001-use-cilium.md <<'EOF'\n# ADR-0001 — Utiliser Cilium comme CNI\n\n## Statut\n\nAccepté\n\n## Contexte\n\nLe cluster Kubernetes Talos utilise actuellement Flannel comme CNI.\n\nNous souhaitons disposer de fonctionnalités réseau plus avancées, notamment\nles Network Policies et l'observabilité avec Hubble.\n\n## Décision\n\nRemplacer Flannel par Cilium.\n\nkube-proxy sera conservé pendant cette première migration afin de limiter\nle nombre de changements effectués simultanément.\n\n## Conséquences\n\n- Flannel sera désactivé dans la configuration Talos.\n- Cilium sera installé comme CNI Kubernetes.\n- kube-proxy restera actif.\n- Une interruption temporaire du réseau des Pods est attendue pendant la migration.\n- Hubble pourra être activé après validation du fonctionnement de Cilium.\nEOF
+ 1048  cat docs/decisions/ADR-0001-use-cilium.md
+ 1049  git status\ngit diff -- talos/patches/cni-none.yaml docs/decisions/ADR-0001-use-cilium.md
+ 1050  git add talos/patches/cni-none.yaml docs/decisions/ADR-0001-use-cilium.md
+ 1051  git commit -m "feat(network): prepare migration from Flannel to Cilium"
+ 1052  git push
+ 1053  git status
+ 1054  talosctl patch machineconfig \\n  --nodes 192.168.1.10 \\n  --patch @talos/patches/cni-none.yaml \\n  --dry-run
+ 1055  talosctl patch machineconfig \\n  --nodes 192.168.1.12 \\n  --patch @talos/patches/cni-none.yaml \\n  --dry-run
+ 1056  talosctl patch machineconfig \\n  --nodes 192.168.1.10 \\n  --patch @talos/patches/cni-none.yaml
+ 1057  talosctl patch machineconfig \\n  --nodes 192.168.1.12 \\n  --patch @talos/patches/cni-none.yaml
+ 1058  talosctl version --nodes 192.168.1.12
+ 1059  talosctl version --nodes 192.168.1.10
+ 1060  kubectl get nods
+ 1061  kubectl get nodes
+ 1062  cilium install \\n  --version 1.19.6 \\n  --set kubeProxyReplacement=false \\n  --set ipam.mode=kubernetes
+ 1063  kubectl status --wait
+ 1064  cilium status --wait
+ 1065  cilium status 
+ 1066  k get node -o wide
+ 1067  kubectl get node -o wide
+ 1068  kubectl get pods -n kube-system -o wide | grep -E 'cilium|NAME'
+ 1069  kubectl describe pod -n kube-system cilium-ltj9m
+ 1070  kubectl get events -A \\n  --sort-by='.lastTimestamp' | tail -n 50
+ 1071  kubectl get nodes \\n  -o custom-columns='NODE:.metadata.name,TAINTS:.spec.taints'
+ 1072  cilium config view
+ 1073  cilium status
+ 1074  mkdir -p infrastructure/cilium\n\ncat > infrastructure/cilium/values.yaml <<'EOF'\nipam:\n  mode: kubernetes\n\nkubeProxyReplacement: false\n\nsecurityContext:\n  capabilities:\n    ciliumAgent:\n      - CHOWN\n      - KILL\n      - NET_ADMIN\n      - NET_RAW\n      - IPC_LOCK\n      - SYS_ADMIN\n      - SYS_RESOURCE\n      - DAC_OVERRIDE\n      - FOWNER\n      - SETGID\n      - SETUID\n    cleanCiliumState:\n      - NET_ADMIN\n      - SYS_ADMIN\n      - SYS_RESOURCE\n\ncgroup:\n  autoMount:\n    enabled: false\n  hostRoot: /sys/fs/cgroup\nEOF
+ 1075  cat infrastructure/cilium/values.yaml
+ 1076  cilium upgrade \\n  --version 1.19.6 \\n  --helm-values infrastructure/cilium/values.yaml
+ 1077  kubectl rollout status daemonset/cilium \\n  -n kube-system \\n  --timeout=5m
+ 1078  cilium status --wait
+ 1079  kubectl get pods -n kube-system -o wide | grep -E 'cilium|coredns|kube-proxy'
+ 1080  kubectl get nodes \\n  -o custom-columns='NODE:.metadata.name,TAINTS:.spec.taints'
+ 1081  git add infrastructure/cilium/values.yaml
+ 1082  git commit -m "fix(cilium): configure Talos-compatible capabilities"
+ 1083  git push
+ 1084  kubectl get nodes\nkubectl get pods -A\nkubectl get ds -n kube-system
+ 1085  talosctl get machineconfig \\n  --nodes 192.168.1.10 \\n  -o yaml | grep -A5 -B2 "cni:"
+ 1086  talosctl get machineconfig \\n  --nodes 192.168.1.12 \\n  -o yaml | grep -A5 -B2 "cni:"
+ 1087  talosctl patch machineconfig \\n  --nodes 192.168.1.10 \\n  --patch @talos/patches/cni-none.yaml
+ 1088  talosctl patch machineconfig \\n  --nodes 192.168.1.12 \\n  --patch @talos/patches/cni-none.yaml
+ 1089  talosctl reboot --nodes 192.168.1.12
+ 1090  talosctl version --nodes 192.168.1.12\nkubectl get nodes
+ 1091  talosctl reboot --nodes 192.168.1.10
+ 1092  kubectl get ds -n kube-system
+ 1093  kubectl get pods -n kube-system -w
+ 1094  cilium status --wait
+ 1095  kubectl delete daemonset kube-flannel -n kube-system
+ 1096  kubectl get ds -n kube-system
+ 1097  kubectl get pods -n kube-system \\n  | awk '/cilium-operator/ && $3 != "Running" {print $1}' \\n  | while read pod; do\n      kubectl delete pod -n kube-system "$pod"\n    done
+ 1098  kubectl get pods -n kube-system
+ 1099  cilium status --wait
+ 1100  cilium connectivity test
+ 1101  cilium connectivity test --cleanup-only
+ 1102  kubectl create namespace cilium-test
+ 1103  kubectl label namespace cilium-test \\n  pod-security.kubernetes.io/enforce=privileged \\n  pod-security.kubernetes.io/enforce-version=latest \\n  pod-security.kubernetes.io/audit=baseline \\n  pod-security.kubernetes.io/audit-version=latest \\n  pod-security.kubernetes.io/warn=baseline \\n  pod-security.kubernetes.io/warn-version=latest
+ 1104  kubectl get namespace cilium-test --show-labels
+ 1105  cilium connectivity test --test-namespace cilium-test
+ 1106  kubectl label namespace cilium-test-1 cilium-test-ccnp1 cilium-test-ccnp2 \\n  pod-security.kubernetes.io/enforce=privileged \\n  --overwrite
+ 1107  kubectl get deploy -A | grep cilium-test\nkubectl get pods -A | grep cilium-test
+ 1108  cilium connectivity test --cleanup-only
+ 1109  kubectl delete namespace \\n  cilium-test \\n  cilium-test-1 \\n  cilium-test-ccnp1 \\n  cilium-test-ccnp2 \\n  --ignore-not-found
+ 1110  kubectl get namespace | grep cilium-test
+ 1111  cilium connectivity test --help | grep -E 'cleanup|namespace-labels|test-namespace'
+ 1112  cilium connectivity test \\n  --namespace-labels pod-security.kubernetes.io/enforce=privileged \\n  --namespace-labels pod-security.kubernetes.io/enforce-version=latest
+ 1113  cilium status
+ 1114  kubectl get pods -A
+ 1115  watch kubectl get pods -n kube-system
+ 1116  brew install watch
+ 1117  cat ~/.zprofile
+ 1118  source ~/.zprofile\nsource ~/.zshrc
+ 1119  echo $SHELL\nwhich brew\nbrew --prefix\ncat ~/.zprofile
+ 1120  rehash
+ 1121  watch kubectl get pods -n kube-system
+ 1122  echo 'alias k=kubectl' >> ~/.zshrc
+ 1123  source ~/.zshrc
+ 1124  alias k
+ 1125  k get nodes
+ 1126  source <(kubectl completion zsh)\ncompdef k=kubectl
+ 1127  cat ~/.zshrc
+ 1128  vim ~/.zshrc
+ 1129  alias k=kubectl\nsource <(kubectl completion zsh)\ncompdef k=kubectl
+ 1130  source ~/.zshrc
+ 1131  alias k=kubectl\nsource <(kubectl completion zsh)\ncompdef k=kubectl
+ 1132  source ~/.zshrc
+ 1133  kubectl get storageclass
+ 1134  k get nodes -o wide
+ 1135  talosctl version
+ 1136  talosctl -n 192.168.1.10 get extensions
+ 1137  talosctl -n 192.168.1.12 get extensions
+ 1138  talosctl -n 192.168.1.10 get disks
+ 1139  talosctl -n 192.168.1.12 get disks
+ 1140  find . -maxdepth 3 -type d | sort
+ 1141  find infrastructure/cilium infrastructure/networking/cilium -maxdepth 2 -type f -print
+ 1142  git status
+ 1143  find . -maxdepth 4 -type f | sort
+ 1144  echo "===== README principal ====="\nsed -n '1,240p' README.md\n\necho "===== README infrastructure ====="\nsed -n '1,240p' infrastructure/README.md\n\necho "===== Valeurs Cilium ====="\nsed -n '1,240p' infrastructure/cilium/values.yaml\n\necho "===== ADR Cilium ====="\nsed -n '1,240p' docs/decisions/ADR-0001-use-cilium.md\n\necho "===== Runbooks ====="\nsed -n '1,240p' docs/runbooks/README.md\n\necho "===== Talos ====="\nsed -n '1,240p' talos/README.md
+ 1145  cat infrastructure/cilium/values.yaml
+ 1146  helm list -n kube-system
+ 1147  brew install helm
+ 1148  history 100
+ 1149  rehash
+ 1150  helm list -n kube-system
+ 1151  helm get values cilium -n kube-system
+ 1152  kubectl get namespace argocd\nkubectl get pods -n argocd
+ 1153  vim infrastructure/cilium/values.yaml
+ 1154  git diff infrastructure/cilium/values.yaml
+ 1155  cat > infrastructure/cilium/values.yaml <<'EOF'\n# Cilium utilise l'IPAM Kubernetes.\nipam:\n  mode: kubernetes\n\n# kube-proxy reste actif pour le moment.\nkubeProxyReplacement: false\n\ncluster:\n  name: homelab\n\noperator:\n  # Un seul replica car le cluster n'a qu'un worker actuellement.\n  replicas: 1\n\n# Encapsulation VXLAN entre les nœuds.\nroutingMode: tunnel\ntunnelProtocol: vxlan\n\n# Talos monte déjà cgroup.\ncgroup:\n  autoMount:\n    enabled: false\n  hostRoot: /sys/fs/cgroup\n\n# Capabilities compatibles avec Talos.\n# SYS_MODULE est volontairement absent.\nsecurityContext:\n  capabilities:\n    ciliumAgent:\n      - CHOWN\n      - KILL\n      - NET_ADMIN\n      - NET_RAW\n      - IPC_LOCK\n      - SYS_ADMIN\n      - SYS_RESOURCE\n      - DAC_OVERRIDE\n      - FOWNER\n      - SETGID\n      - SETUID\n\n    cleanCiliumState:\n      - NET_ADMIN\n      - SYS_ADMIN\n      - SYS_RESOURCE\nEOF
+ 1156  git diff infrastructure/cilium/values.yaml
+ 1157  git add infrastructure/cilium/values.yaml
+ 1158  git commit -m "feat(cilium): track live Helm configuration"\n
+ 1159  git push
+ 1160  mkdir -p bootstrap/argocd
+ 1161  cat > bootstrap/argocd/kustomization.yaml <<'EOF'\napiVersion: kustomize.config.k8s.io/v1beta1\nkind: Kustomization\n\nresources:\n  # Version épinglée pour garantir un bootstrap reproductible.\n  - https://raw.githubusercontent.com/argoproj/argo-cd/v3.4.5/manifests/install.yaml\nEOF
+ 1162  git add bootstrap/argocd/kustomization.yaml\ngit commit -m "feat(argocd): add bootstrap manifests"\n
+ 1163  git push
+ 1164  kubectl create namespace argocd\n
+ 1165  kubectl apply -k bootstrap/argocd
+ 1166  kubectl get pods -n argocd -w
+ 1167  k apply --server-side -k bootstrap/argocd
+ 1168  k get pods -n argocd -w
+ 1169  kubectl apply \\n  --server-side \\n  --force-conflicts \\n  -k bootstrap/argocd
+ 1170  k get pods -n argocd -w
+ 1171  kubectl get pods -n argocd
+ 1172  kubectl get pods -n default | grep argocd
+ 1173  cat > bootstrap/argocd/kustomization.yaml <<'EOF'\napiVersion: kustomize.config.k8s.io/v1beta1\nkind: Kustomization\n\nnamespace: argocd\n\nresources:\n  - https://raw.githubusercontent.com/argoproj/argo-cd/v3.4.5/manifests/install.yaml\nEOF
+ 1174  kubectl apply \\n  --server-side \\n  --force-conflicts \\n  -k bootstrap/argocd
+ 1175  kubectl get pods -n argocd
+ 1176  kubectl get pods -n argocd
+ 1177  kubectl get pods -n argocd -w
+ 1178  kubectl get pods -n argocd 
+ 1179  kubectl get all -n default | grep argocd
+ 1180  kubectl get all -n default
+ 1181  kubectl get deploy,statefulset,svc,pods,configmap,secret,networkpolicy,serviceaccount \\n  -n default \\n  -l app.kubernetes.io/part-of=argocd \\n  --request-timeout=10s
+ 1182  kubectl delete \\n  deployment,statefulset,service,configmap,secret,networkpolicy,serviceaccount,role,rolebinding \\n  -n default \\n  -l app.kubernetes.io/part-of=argocd \\n  --ignore-not-found
+ 1183  kubectl get \\n  deployment,statefulset,service,configmap,secret,networkpolicy,serviceaccount,role,rolebinding \\n  -n default \\n  -l app.kubernetes.io/part-of=argocd
+ 1184  kubectl get pods -n argocd\nkubectl get svc -n argocd
+ 1185  kubectl port-forward svc/argocd-server -n argocd 8080:443
+ 1186  k get nodes
+ 1187  k get pods -n kube-system
+ 1188  k get pods -n argocd
+ 1189  kubectl get nodes\nkubectl get pods -A\nhelm list -A\nkubectl get applications -n argocd
+ 1190  helm list -A
+ 1191  kubectl delete namespace \\n  cilium-test-1 \\n  cilium-test-ccnp1 \\n  cilium-test-ccnp2
+ 1192  k get pods -A
+ 1193  kubectl get crd | grep gateway.networking.k8s.io
+ 1194  kubectl get crd 
+ 1195  mkdir -p infrastructure/networking/gateway-api
+ 1196  infrastructure/networking/gateway-api/kustomization.yaml
+ 1197  vim infrastructure/networking/gateway-api/kustomization.yaml
+ 1198  vim infrastructure/cilium/values.yaml
+ 1199  vim infrastructure/cilium/values.yaml
+ 1200  vim bootstrap/clusters/homelab/gateway-api.yamlwq
+ 1201  vim bootstrap/clusters/homelab/root-app.yaml
+ 1202  vim bootstrap/clusters/homelab/apps/kustomization.yaml
+ 1203  git status\ngit diff
+ 1204  git add \\n  infrastructure/cilium/values.yaml \\n  infrastructure/networking/gateway-api \\n  bootstrap/clusters/homelab
+ 1205  git commit -m "feat(networking): enable Cilium Gateway API"
+ 1206  git push
+ 1207  kubectl get applications -n argocd
+ 1208  kubectl get applications -n argocd
+ 1209  git status\ngit log -1 --oneline\ngit remote -v
+ 1210  git diff -- bootstrap/argocd/kustomization.yaml
+ 1211  find bootstrap/clusters/homelab -maxdepth 2 -type f -print
+ 1212  cat bootstrap/clusters/homelab/kustomization.yaml
+ 1213  mv bootstrap/clusters/homelab/gateway-api.yaml \\n   bootstrap/clusters/homelab/apps/gateway-api.yaml
+ 1214  mv bootstrap/clusters/homelab/gateway-api.yamlwq bootstrap/clusters/homelab/apps/gateway-api.yaml
+ 1215  kubectl kustomize bootstrap/clusters/homelab/apps |\ngrep -A8 -B3 'name: gateway-api'
+ 1216  git add bootstrap/clusters/homelab/apps\ngit commit -m "fix(gitops): include Gateway API application"\ngit push
+ 1217  kubectl annotate application homelab \\n  -n argocd \\n  argocd.argoproj.io/refresh=hard \\n  --overwrite
+ 1218  kubectl get applications -n argocd -w
+ 1219  kubectl get crd | grep gateway.networking.k8s.io
+ 1220  kubectl get crd 
+ 1221  kubectl get gatewayclass\n\nkubectl get gateway -A\n\nkubectl get httproute -A
+ 1222  kubectl describe application gateway-api -n argocd
+ 1223  grep -R "<UTILISATEUR_GITHUB>" -n bootstrap
+ 1224  vim bootstrap/clusters/homelab/apps/gateway-api.yaml
+ 1225  grep -R "<UTILISATEUR_GITHUB>" -n bootstrap
+ 1226  kubectl kustomize bootstrap/clusters/homelab/apps |\ngrep -A8 -B3 "name: gateway-api"
+ 1227  git add bootstrap/clusters/homelab/apps/gateway-api.yaml\ngit commit -m "fix(gitops): correct Gateway API repository URL"\ngit push
+ 1228  kubectl annotate application homelab \\n  -n argocd \\n  argocd.argoproj.io/refresh=hard \\n  --overwrite
+ 1229  kubectl get crd 
+ 1230  kubectl get crd | grep gateway.networking.k8s.io
+ 1231  kubectl get crd | grep gateway.networking.k8s.io
+ 1232  kubectl get crd 
+ 1233  ping -c 4 192.168.1.10\nnc -vz 192.168.1.10 6443
+ 1234  kubectl get nodes --request-timeout=60s
+ 1235  kubectl config current-context\nkubectl config view --minify \\n  -o jsonpath='{.clusters[0].cluster.server}{"\n"}'
+ 1236  talosctl -n 192.168.1.10 health
+ 1237  talosctl -n 192.168.1.10 service kubelet\ntalosctl -n 192.168.1.10 service etcd
+ 1238  talosctl -n 192.168.1.10 containers -k
+ 1239  talosctl -n 192.168.1.10 logs kubelet --tail 100
+ 1240  talosctl -n 192.168.1.10 logs -k kube-apiserver --tail 100
+ 1241  talosctl -n 192.168.1.10 logs -k etcd --tail 100
+ 1242  talosctl -n 192.168.1.10 memory\ntalosctl -n 192.168.1.10 dashboard
+ 1243  k get nodes
+ 1244  talosctl -n 192.168.1.10 health
+ 1245  talosctl -n 192.168.1.10 memory\ntalosctl -n 192.168.1.10 dashboard
+ 1246  k get nodes
+ 1247  kubectl get nodes --request-timeout=60s\nkubectl get pods -A\nkubectl get applications -n argocd
+ 1248  kubectl get nodes --request-timeout=60s\nkubectl get pods -A\nkubectl get applications -n argocd
+ 1249  kubectl get nodes --request-timeout=60s\nkubectl get pods -A\nkubectl get applications -n argocd
+ 1250  kubectl get nodes --request-timeout=60s\nkubectl get pods -A\nkubectl get applications -n argocd
+ 1251  kubectl get pods -n kube-system -w
+ 1252  kubectl get nodes --request-timeout=60s\nkubectl get pods -A\nkubectl get applications -n argocd
+ 1253  kubectl get nodes\nkubectl get pods -A\nkubectl get applications -n argocd\nkubectl get gatewayclass\nkubectl get crd | grep gateway.networking.k8s.io
+ 1254  git add .\ngit commit -m "feat: deploy Gateway API with Cilium"\ngit push
+ 1255  vim infrastructure/networking/argocd-gateway/gateway.yaml
+ 1256  mkkdir infrastructure/networking/argocd-gateway
+ 1257  vim infrastructure/networking/argocd-gateway/gateway.yaml
+ 1258  mkdir infrastructure/networking/argocd-gateway
+ 1259  vim infrastructure/networking/argocd-gateway/gateway.yaml
+ 1260  vim infrastructure/networking/argocd-gateway/httproute.yaml
+ 1261  vim infrastructure/networking/argocd-gateway/kustomization.yaml
+ 1262  find . -name argocd-cmd-params-cm
+ 1263  vim bootstrap/clusters/homelab/apps/argocd-gateway.yaml
+ 1264  vim bootstrap/clusters/homelab/apps/kustomization.yaml
+ 1265  kubectl edit configmap argocd-cmd-params-cm -n argocd
+ 1266  kubectl rollout restart deployment argocd-server -n argocd
+ 1267  kubectl rollout status deployment argocd-server -n argocd
+ 1268  kubectl get cm argocd-cmd-params-cm -n argocd -o yaml
+ 1269  find bootstrap -maxdepth 3
+ 1270  cat > bootstrap/argocd/argocd-cmd-params-cm.yaml <<'EOF'\napiVersion: v1\nkind: ConfigMap\nmetadata:\n  name: argocd-cmd-params-cm\n  namespace: argocd\ndata:\n  server.insecure: "true"\nEOF
+ 1271  vim bootstrap/argocd/kustomization.yaml
+ 1272  kubectl kustomize bootstrap/argocd |\ngrep -A5 -B5 'name: argocd-cmd-params-cm'
+ 1273  vim bootstrap/argocd/argocd-cmd-params-cm.yaml
+ 1274  kubectl kustomize bootstrap/argocd |\ngrep -A8 -B5 'name: argocd-cmd-params-cm'
+ 1275  git diff\ngit status
+ 1276  git add \\n  bootstrap/argocd/kustomization.yaml \\n  bootstrap/argocd/argocd-cmd-params-cm.yaml \\n  bootstrap/clusters/homelab/apps/kustomization.yaml \\n  bootstrap/clusters/homelab/apps/argocd-gateway.yaml \\n  infrastructure/networking/argocd-gateway
+ 1277  git diff --cached\n
+ 1278  git status
+ 1279  git commit -m "feat(argocd): expose Argo CD through Gateway API"\ngit push
+ 1280  kubectl get applications -n argocd -w
+ 1281  kubectl get gateway,httproute -n argocd
+ 1282  git status\ngit log -1 --oneline\ngit log origin/main -1 --oneline
+ 1283  kubectl kustomize bootstrap/clusters/homelab/apps |\ngrep -A15 -B5 'name: argocd-gateway'
+ 1284  kubectl kustomize bootstrap/clusters/homelab/apps |\ngrep -A15 -B5 'name: argocd-gateway'
+ 1285  kubectl get application homelab -n argocd \\n  -o jsonpath='{.spec.source.path}{"\n"}'
+ 1286  kubectl annotate application homelab -n argocd \\n  argocd.argoproj.io/refresh=hard \\n  --overwrite
+ 1287  kubectl get applications -n argocd -w
+ 1288  vim bootstrap/clusters/homelab/apps/argocd-gateway.yaml
+ 1289  git add bootstrap/clusters/homelab/apps/argocd-gateway.yaml\ngit commit -m "fix(argocd): correct gateway application repository URL"\ngit push
+ 1290  kubectl annotate application argocd-gateway -n argocd \\n  argocd.argoproj.io/refresh=hard \\n  --overwrite
+ 1291  kubectl get applications -n argocd -w
+ 1292  kubectl describe application argocd-gateway -n argocd
+ 1293  grep -R "<UTILISATEUR_GITHUB>" -n bootstrap
+ 1294  grep -R "<UTILISATEUR_GITHUB>" -n infrastructure/networking/argocd-gateway
+ 1295  grep -R "<UTILISATEUR_GITHUB>" -n *
+ 1296  kubectl describe application argocd-gateway -n argocd
+ 1297  grep -R "<TON-UTILISATEUR>" -n .\n
+ 1298  cat bootstrap/clusters/homelab/apps/argocd-gateway.yaml
+ 1299  kubectl annotate application homelab -n argocd \\n  argocd.argoproj.io/refresh=hard \\n  --overwrite
+ 1300  kubectl get application argocd-gateway -n argocd \\n  -o jsonpath='{.spec.source.repoURL}{"\n"}'
+ 1301  kubectl get applications -n argocd -w
+ 1302  kubectl get gateway,httproute -n argocd
+ 1303  kubectl get svc -n argocd | grep cilium-gateway
+ 1304  kubectl describe gateway homelab-gateway -n argocd\nkubectl describe httproute argocd -n argocd
+ 1305  kubectl get application argocd-gateway -n argocd
+ 1306  kubectl get gateway,httproute,svc -n argocd -o wide
+ 1307  kubectl -n kube-system exec ds/cilium -- \\n  cilium-dbg status | grep -E 'KubeProxyReplacement|Envoy'
+ 1308  kubectl -n kube-system get cm cilium-config \\n  -o jsonpath='{.data.enable-gateway-api}{"\n"}{.data.enable-envoy-config}{"\n"}'
+ 1309  kubectl get gatewayclass cilium -o yaml
+ 1310  kubectl logs -n kube-system deployment/cilium-operator \\n  --since=15m |\ngrep -iE 'gateway|kube.?proxy|envoy|error|warning'
+ 1311  kubectl get application argocd-gateway -n argocd
+ 1312  kubectl get application 
+ 1313  kubectl get application -A
+ 1314  find infrastructure -iname "*cilium*"
+ 1315  find infrastructure -iname "*values*.yaml"
+ 1316  infrastructure/cilium/values.yaml
+ 1317  cat infrastructure/cilium/values.yaml
+ 1318  kubectl get nodes -o wide
+ 1319  talosctl get machineconfig \\n  --nodes 192.168.1.10 \\n  -o yaml |\ngrep -A8 -B3 -E 'kubePrism|proxy:'
+ 1320  talosctl get machineconfig \\n  --nodes 192.168.1.12 \\n  -o yaml |\ngrep -A8 -B3 -E 'kubePrism|proxy:'
+ 1321  cat bootstrap/clusters/homelab/apps/cilium.yaml
+ 1322  cat infrastructure/cilium/kustomization.yaml 2>/dev/null\ncat infrastructure/cilium/repository.yaml 2>/dev/null\ncat infrastructure/cilium/release.yaml 2>/dev/null
+ 1323  ls -l infrastructure/cilium/
+ 1324  find talos -maxdepth 3 -type f -print
+ 1325  grep -R -nE 'cni:|proxy:|kubePrism:' talos
+ 1326  mkdir -p /tmp/homelab-backup
+ 1327  talosctl get machineconfig \\n  --nodes 192.168.1.10 \\n  -o yaml > /tmp/homelab-backup/controlplane-machineconfig.yaml
+ 1328  vim /tmp/homelab-backup/controlplane-machineconfig.yaml
+ 1329  talosctl get machineconfig \\n  --nodes 192.168.1.12 \\n  -o yaml > /tmp/homelab-backup/worker-machineconfig.yaml
+ 1330  kubectl get ds kube-proxy -n kube-system -o yaml \\n  > /tmp/homelab-backup/kube-proxy-daemonset.yaml
+ 1331  kubectl get application cilium -n argocd -o yaml \\n  > /tmp/homelab-backup/cilium-application.yaml
+ 1332  kubectl get ds kube-proxy -n kube-system\nkubectl get pods -n kube-system -o wide
+ 1333  k get service
+ 1334  kubectl -n kube-system exec ds/cilium -- cilium-dbg status
+ 1335  kubectl get nodes\nkubectl get --raw='/readyz?verbose' | tail
+ 1336  find talos -maxdepth 3 -type f -print\ngrep -R -nE 'cni:|proxy:|kubePrism:' talos\nkubectl get ds kube-proxy -n kube-system
+ 1337  kubectl patch application cilium -n argocd \\n  --type=json \\n  -p='[{"op":"remove","path":"/spec/syncPolicy/automated"}]'
+ 1338  kubectl get application cilium -n argocd \\n  -o jsonpath='{.spec.syncPolicy}{"\n"}'
+ 1339  kubectl patch application homelab -n argocd \\n  --type=json \\n  -p='[{"op":"remove","path":"/spec/syncPolicy/automated"}]'
+ 1340  vim infrastructure/cilium/values.yaml
+ 1341  cat > talos/patches/disable-kube-proxy.yaml <<'EOF'\ncluster:\n  proxy:\n    disabled: true\nEOF
+ 1342  git diff
+ 1343  git add \\n  infrastructure/cilium/values.yaml \\n  talos/patches/disable-kube-proxy.yaml\n\ngit commit -m "feat(networking): enable Cilium kube-proxy replacement"\ngit push
+ 1344  kubectl annotate application cilium -n argocd \\n  argocd.argoproj.io/refresh=hard \\n  --overwrite
+ 1345  kubectl get application cilium -n argocd
+ 1346  kubectl patch application cilium -n argocd \\n  --type=merge \\n  -p '{"operation":{"sync":{"revision":"main"}}}'
+ 1347  kubectl get application cilium -n argocd
+ 1348  kubectl rollout status daemonset/cilium -n kube-system --timeout=5m\nkubectl rollout status deployment/cilium-operator -n kube-system --timeout=5m
+ 1349  kubectl rollout status daemonset/cilium -n kube-system --timeout=5m
+ 1350  kubectl rollout status deployment/cilium-operator -n kube-system --timeout=5m
+ 1351  kubectl -n kube-system exec ds/cilium -- \\n  cilium-dbg status | grep -E 'KubeProxyReplacement|Kubernetes|Proxy Status'
+ 1352  kubectl get pods -n kube-system -l k8s-app=cilium -w
+ 1353  talosctl -n 192.168.1.10 logs etcd --tail 100 --follow
+ 1354  kubectl get pods -A
+ 1355  kubectl get applications -n argocd
+ 1356  kubectl describe application monitoring -n argocd
+ 1357  kubectl annotate application monitoring \\n  -n argocd \\n  argocd.argoproj.io/refresh=hard --overwrite
+ 1358  kubectl get applications -n argocd
+ 1359  kubectl get applications -n argocd
+ 1360  argocd version --client
+ 1361  brew install argocd
+ 1362  rehash
+ 1363  argocd version --client
+ 1364  kubectl get svc -n argocd
+ 1365  kubectl get httproute -A
+ 1366  curl -Ik https://argocd.homelab.local
+ 1367  curl -I --max-time 5 http://argocd.homelab.local
+ 1368  dscacheutil -q host -a name argocd.homelab.local
+ 1369  kubectl get pods -n argocd -o wide
+ 1370  brew install tree
+ 1371  rehash
+ 1372  tree -L 3
+ 1373  grep -RIlE 'argoproj.io|kind:[[:space:]]*Application|argocd' \\n  --exclude-dir=.git \\n  .
+ 1374  cd ..
+ 1375  mv homelab homelab-backup
+ 1376  mkdir homelab
+ 1377  cd homelab
+ 1378  git init
+ 1379  vim .git/config
+ 1380  pwd\nls -la\nls -la ../homelab-backup
+ 1381  mkdir -p \\n  talos \\n  infrastructure/cilium \\n  infrastructure/metallb \\n  infrastructure/gateway-api \\n  infrastructure/monitoring \\n  applications \\n  scripts \\n  docs/runbooks\n\ntouch README.md .gitignore
+ 1382  tree -L 3
+ 1383  cp -R ../homelab-backup/talos/. ./talos/
+ 1384  tree talos -L 3
+ 1385  for file in talos/patches/*.yaml; do\n  echo "===== $file ====="\n  cat "$file"\n  echo\ndone
+ 1386  cat > .gitignore <<'EOF'\n# Talos secrets and generated configs\ntalos/machineconfig/*.yaml\ntalos/secrets.yaml\ntalos/talosconfig\n\n# Kubernetes local configs\nkubeconfig\n*.kubeconfig\n\n# macOS\n.DS_Store\n\n# Temporary files\n*.tmp\n*.bak\nEOF
+ 1387  cat .gitignore
+ 1388  git status
+ 1389  mkdir -p talos/generated
+ 1390  cat >> .gitignore <<'EOF'\n\n# Generated Talos configs\ntalos/generated/\nEOF
+ 1391  cat .gitignore\ntree talos -L 2
+ 1392  rm -rf talos/machineconfig
+ 1393  tree talos -L 2
+ 1394  talhelper version
+ 1395  brew install talhelper
+ 1396  rehash
+ 1397  talhelper version
+ 1398  talhelper -version
+ 1399  talhelper --version
+ 1400  talosctl version --client\nkubectl version --client
+ 1401  talosctl get disks \\n  --nodes 192.168.1.10,192.168.1.12 \\n  --endpoints 192.168.1.10
+ 1402  talosctl get links \\n  --nodes 192.168.1.10,192.168.1.12 \\n  --endpoints 192.168.1.10
+ 1403  touch talos/talconfig.yaml
+ 1404  vim talos/talconfig.yaml
+ 1405  cat talos/talconfig.yaml
+ 1406  talhelper --help
+ 1407  talhelper validate --config-file talos/talconfig.yaml
+ 1408  talhelper validate --help
+ 1409  talhelper validate talconfig talos/talconfig.yaml
+ 1410  cat >> talos/talconfig.yaml <<'EOF'\n\nnodes:\n  - hostname: naruto\n    ipAddress: 192.168.1.10\n    installDisk: /dev/sda\n    controlPlane: true\n\n  - hostname: kakashi\n    ipAddress: 192.168.1.12\n    installDisk: /dev/sda\n    controlPlane: false\nEOF
+ 1411  talhelper validate talconfig talos/talconfig.yaml
+ 1412  grep -nE '"patches"|"patchesStrategicMerge"' talos/talconfig.schema.json | head -20
+ 1413  talhelper genschema > talos/talconfig.schema.json
+ 1414  ls -lh talos/talconfig.schema.json
+ 1415  grep -nE '"patches"|"patchesStrategicMerge"' talos/talconfig.schema.json | head -20
+ 1416  rm talos/talconfig.schema.json
+ 1417  talhelper genschema --file talos/talconfig.schema.json
+ 1418  ls -lh talos/talconfig.schema.json
+ 1419  grep -nE '"patches"|"patchesStrategicMerge"' talos/talconfig.schema.json | head -20
+ 1420  sed -n '940,985p' talos/talconfig.schema.json
+ 1421  sed -n '880,940p' talos/talconfig.schema.json
+ 1422  jq -r '\n  paths(objects | select(has("patches"))) \n  | map(tostring) \n  | join(".")\n' talos/talconfig.schema.json
+ 1423  jq '.["$defs"].TalhelperConfig.properties.patches' talos/talconfig.schema.json
+ 1424  vim talos/talconfig.yaml
+ 1425  talhelper validate talconfig talos/talconfig.yaml
+ 1426  talhelper validate talconfig talos/talconfig.yaml
+ 1427  talhelper gensecret --help
+ 1428  find . -maxdepth 2 -type f
+ 1429  rm ./talconfig.json
+ 1430  find . -maxdepth 2 -type f\n
+ 1431  echo 'talos/talsecret.yaml' >> .gitignore
+ 1432  cat .gitignore
+ 1433  vim .gitignore
+ 1434  talhelper genconfig --help
+ 1435  talhelper gensecret > talos/talsecret.yaml
+ 1436  cat talos/talsecret.yaml
+ 1437  ll talos/talsecret.yaml
+ 1438  talhelper genconfig \\n  --config-file talos/talconfig.yaml \\n  --secret-file talos/talsecret.yaml \\n  --out-dir talos/generated
+ 1439  find talos/generated -maxdepth 1 -type f -print
+ 1440  talosctl validate \\n  --config talos/generated/konoha-naruto.yaml \\n  --mode metal
+ 1441  talosctl validate \\n  --config talos/generated/konoha-kakashi.yaml \\n  --mode metal
+ 1442  ls -lh talos/generated/talosconfig
+ 1443  talosctl get disks \\n  --nodes 192.168.1.10 \\n  --insecure
+ 1444  talosctl get disks \\n  --nodes 192.168.1.10 \\n  --insecure
+ 1445  talosctl apply-config \\n  --nodes 192.168.1.10 \\n  --insecure \\n  --file talos/generated/konoha-naruto.yaml
+ 1446  talosctl bootstrap \\n  --nodes 192.168.1.10 \\n  --talosconfig talos/generated/talosconfig
+ 1447  talosctl health \\n  --nodes 192.168.1.10 \\n  --talosconfig talos/generated/talosconfig
+ 1448  talosctl kubeconfig ./kubeconfig \\n  --nodes 192.168.1.10 \\n  --talosconfig talos/generated/talosconfig
+ 1449  kubectl --kubeconfig ./kubeconfig get nodes -o wide
+ 1450  talosctl get disks \\n  --nodes 192.168.1.12 \\n  --insecure
+ 1451  talosctl apply-config \\n  --nodes 192.168.1.12 \\n  --insecure \\n  --file talos/generated/konoha-kakashi.yaml
+ 1452  talosctl health \\n  --nodes 192.168.1.12 \\n  --talosconfig talos/generated/talosconfig
+ 1453  kubectl --kubeconfig ./kubeconfig get nodes -o wide
+ 1454  helm version
+ 1455  cilium version --client
+ 1456  cat > infrastructure/cilium/values.yaml <<'EOF'\nipam:\n  mode: kubernetes\n\nkubeProxyReplacement: true\n\nk8sServiceHost: localhost\nk8sServicePort: 7445\n\ncgroup:\n  autoMount:\n    enabled: false\n  hostRoot: /sys/fs/cgroup\n\nsecurityContext:\n  capabilities:\n    ciliumAgent:\n      - CHOWN\n      - KILL\n      - NET_ADMIN\n      - NET_RAW\n      - IPC_LOCK\n      - SYS_ADMIN\n      - SYS_RESOURCE\n      - DAC_OVERRIDE\n      - FOWNER\n      - SETGID\n      - SETUID\n    cleanCiliumState:\n      - NET_ADMIN\n      - SYS_ADMIN\n      - SYS_RESOURCE\nEOF
+ 1457  cat infrastructure/cilium/values.yaml
+ 1458  cilium install \\n  --version 1.19.6 \\n  --values infrastructure/cilium/values.yaml \\n  --kubeconfig ./kubeconfig
+ 1459  kubectl --kubeconfig ./kubeconfig get nodes -o wide
+ 1460  kubectl --kubeconfig ./kubeconfig get nodes -o wide
+ 1461  kubectl --kubeconfig ./kubeconfig get nodes -o wide
+ 1462  cilium status \\n  --kubeconfig ./kubeconfig \\n  --wait
+ 1463  kubectl --kubeconfig ./kubeconfig get nodes -o wide
+ 1464  cilium connectivity test \\n  --kubeconfig ./kubeconfig
+ 1465  kubectl --kubeconfig ./kubeconfig \\n  get deployments,replicasets,pods -n cilium-test-1 -o wide
+ 1466  kubectl --kubeconfig ./kubeconfig \\n  describe replicaset \\n  -n cilium-test-1 \\n  -l kind=client,name=client
+ 1467  kubectl --kubeconfig ./kubeconfig \\n  label namespace cilium-test-1 \\n  pod-security.kubernetes.io/enforce=privileged \\n  pod-security.kubernetes.io/audit=privileged \\n  pod-security.kubernetes.io/warn=privileged \\n  --overwrite
+ 1468  kubectl --kubeconfig ./kubeconfig \\n  rollout restart deployment \\n  -n cilium-test-1
+ 1469  kubectl --kubeconfig ./kubeconfig \\n  get pods -n cilium-test-1 -o wide
+ 1470  kubectl --kubeconfig ./kubeconfig \\n  get pods -n cilium-test-1 -o wide
+ 1471  cilium connectivity test \\n  --kubeconfig ./kubeconfig
+ 1472  kubectl --kubeconfig ./kubeconfig get namespaces
+ 1473  cilium connectivity test \\n  --kubeconfig ./kubeconfig \\n  --cleanup-only
+ 1474  kubectl --kubeconfig ./kubeconfig get namespaces
+ 1475  cilium connectivity test \\n  --kubeconfig ./kubeconfig \\n  --cleanup
+ 1476  kubectl --kubeconfig ./kubeconfig get namespaces
+ 1477  helm get values cilium \\n  -n kube-system \\n  --kubeconfig ./kubeconfig
+ 1478  vim infrastructure/cilium/values.yaml
+ 1479  tail -n 10 infrastructure/cilium/values.yaml
+ 1480  helm upgrade cilium \\n  oci://quay.io/cilium/charts/cilium \\n  --version 1.19.6 \\n  --namespace kube-system \\n  --kubeconfig ./kubeconfig \\n  --values infrastructure/cilium/values.yaml
+ 1481  cilium status \\n  --kubeconfig ./kubeconfig \\n  --wait
+ 1482  helm get values cilium \\n  -n kube-system \\n  --kubeconfig ./kubeconfig
+ 1483  vim infrastructure/cilium/loadbalancer-ip-pool.yaml
+ 1484  cat infrastructure/cilium/loadbalancer-ip-pool.yaml
+ 1485  kubectl --kubeconfig ./kubeconfig apply \\n  -f infrastructure/cilium/loadbalancer-ip-pool.yaml
+ 1486  kubectl --kubeconfig ./kubeconfig \\n  get ciliumloadbalancerippools
+ 1487  vim infrastructure/cilium/l2-announcement-policy.yaml
+ 1488  cat infrastructure/cilium/l2-announcement-policy.yaml
+ 1489  kubectl --kubeconfig ./kubeconfig apply \\n  -f infrastructure/cilium/l2-announcement-policy.yaml
+ 1490  kubectl --kubeconfig ./kubeconfig \\n  get ciliuml2announcementpolicies
+ 1491  kubectl --kubeconfig ./kubeconfig \\n  describe ciliuml2announcementpolicy homelab-l2-policy
+ 1492  infrastructure/cilium/l2-test.yaml
+ 1493  vim infrastructure/cilium/l2-test.yaml
+ 1494  kubectl --kubeconfig ./kubeconfig apply \\n  -f infrastructure/cilium/l2-test.yaml
+ 1495  kubectl --kubeconfig ./kubeconfig \\n  get pods,svc -l app=l2-test -o wide
+ 1496  kubectl --kubeconfig ./kubeconfig \\n  get service l2-test -o wide
+ 1497  curl -I http://192.168.1.50
+ 1498  kubectl --kubeconfig ./kubeconfig \\n  get leases -n kube-system \\n  | grep cilium-l2
+ 1499  kubectl -n kube-system \\nget configmap cilium-config -o yaml
+ 1500  kubectl --kubeconfig ./kubeconfig -n kube-system \\nget configmap cilium-config -o yaml
+ 1501  ll /home
+ 1502  pwd
+ 1503  vim infrastructure/cilium/l2-announcement-policy.yaml
+ 1504  kubectl --kubeconfig ./kubeconfig apply \\n  -f infrastructure/cilium/l2-announcement-policy.yaml
+ 1505  kubectl --kubeconfig ./kubeconfig \\n  get leases -n kube-system
+ 1506  kubectl --kubeconfig ./kubeconfig -n kube-system \\n  logs daemonset/cilium --prefix \\n  | grep -Ei 'l2|lease|forbidden|error'
+ 1507  kubectl --kubeconfig ./kubeconfig -n kube-system \\n  rollout restart daemonset/cilium
+ 1508  kubectl --kubeconfig ./kubeconfig -n kube-system \\n  rollout status daemonset/cilium --timeout=5m
+ 1509  curl -I http://192.168.1.50
+ 1510  kubectl --kubeconfig ./kubeconfig \\n  get leases -n kube-system \\n  | grep cilium-l2
+ 1511  k --kubeconfig ./kubeconfig get ns
+ 1512  k --kubeconfig ./kubeconfig get pods
+ 1513  kubectl --kubeconfig ./kubeconfig delete \\n  -f infrastructure/cilium/l2-test.yaml
+ 1514  kubectl --kubeconfig ./kubeconfig \\n  get pods,services,leases -A \\n  | grep -E 'l2-test|cilium-l2announce'
+ 1515  kubectl --kubeconfig ./kubeconfig \\n  get leases -n kube-system \\n  | grep cilium-l2announce
