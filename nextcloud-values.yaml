@@ -1,0 +1,83 @@
+externalDatabase:
+  database: nextcloud
+  enabled: true
+  existingSecret:
+    enabled: true
+    passwordKey: db-password
+    secretName: nextcloud-services-secret
+    usernameKey: db-username
+  host: nextcloud-mariadb:3306
+  type: mysql
+ingress:
+  className: cilium
+  enabled: true
+  path: /
+  pathType: Prefix
+  tls: []
+internalDatabase:
+  enabled: false
+livenessProbe:
+  enabled: true
+  failureThreshold: 6
+  initialDelaySeconds: 10
+  periodSeconds: 10
+  successThreshold: 1
+  timeoutSeconds: 5
+mariadb:
+  architecture: standalone
+  auth:
+    database: nextcloud
+    existingSecret: nextcloud-services-secret
+    username: nextcloud
+  enabled: true
+  primary:
+    persistence:
+      accessMode: ReadWriteOnce
+      enabled: true
+      size: 8Gi
+      storageClass: local-path
+nextcloud:
+  existingSecret:
+    enabled: true
+    passwordKey: nextcloud-password
+    secretName: nextcloud-admin-secret
+    usernameKey: nextcloud-username
+  host: nextcloud.home.arpa
+  trustedDomains:
+  - nextcloud.home.arpa
+  - 192.168.1.53
+  - 100.78.189.101
+  - nextcloud.taildf9a0f.ts.net
+persistence:
+  accessMode: ReadWriteOnce
+  enabled: true
+  size: 10Gi
+  storageClass: local-path
+readinessProbe:
+  enabled: true
+  failureThreshold: 6
+  initialDelaySeconds: 10
+  periodSeconds: 10
+  successThreshold: 1
+  timeoutSeconds: 5
+redis:
+  architecture: standalone
+  auth:
+    enabled: true
+    existingSecret: nextcloud-services-secret
+    existingSecretPasswordKey: redis-password
+  enabled: true
+  master:
+    persistence:
+      enabled: false
+  replica:
+    persistence:
+      enabled: false
+    replicaCount: 0
+startupProbe:
+  enabled: true
+  failureThreshold: 60
+  initialDelaySeconds: 10
+  periodSeconds: 10
+  successThreshold: 1
+  timeoutSeconds: 5

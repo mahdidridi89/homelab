@@ -1,0 +1,38 @@
+postgresql-ha:
+  enabled: false
+
+
+valkey-cluster:
+  enabled: false
+
+persistence:
+  enabled: true
+  storageClass: local-path
+  size: 10Gi
+
+gitea:
+  admin:
+    existingSecret: gitea-admin-secret
+    email: gitea@local.domain
+    passwordMode: initialOnlyRequireReset
+
+ingress:
+  enabled: true
+  className: cilium
+  hosts:
+    - host: gitea.home.arpa
+      paths:
+        - path: /
+  tls: []
+
+postgresql:
+  enabled: true
+  primary:
+    persistence:
+      storageClass: local-path
+
+valkey:
+  enabled: true
+  primary:
+    persistence:
+      storageClass: local-path

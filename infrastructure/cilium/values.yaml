@@ -35,3 +35,6 @@ l2announcements:
 
 externalIPs:
   enabled: true
+
+gatewayAPI:
+  enabled: true

@@ -1,0 +1,108 @@
+nextcloud:
+  host: nextcloud.home.arpa
+
+  trustedDomains:
+    - nextcloud.home.arpa
+    - 192.168.1.53
+    - 100.78.189.101
+    - nextcloud.taildf9a0f.ts.net
+  configs:
+    proxy.config.php: |-
+      <?php
+      $CONFIG = array (
+        'trusted_proxies' => array (
+          '10.244.0.0/16',
+        ),
+      );
+
+  existingSecret:
+    enabled: true
+    secretName: nextcloud-admin-secret
+    usernameKey: nextcloud-username
+    passwordKey: nextcloud-password
+
+
+internalDatabase:
+  enabled: false
+
+externalDatabase:
+  enabled: true
+  type: mysql
+  host: nextcloud-mariadb:3306
+  database: nextcloud
+
+  existingSecret:
+    enabled: true
+    secretName: nextcloud-services-secret
+    usernameKey: db-username
+    passwordKey: db-password
+
+mariadb:
+  enabled: true
+
+  auth:
+    database: nextcloud
+    username: nextcloud
+    existingSecret: nextcloud-services-secret
+
+  architecture: standalone
+
+  primary:
+    persistence:
+      enabled: true
+      storageClass: local-path
+      accessMode: ReadWriteOnce
+      size: 8Gi
+
+redis:
+  enabled: true
+  architecture: standalone
+
+  auth:
+    enabled: true
+    existingSecret: nextcloud-services-secret
+    existingSecretPasswordKey: redis-password
+
+  master:
+    persistence:
+      enabled: false
+
+  replica:
+    replicaCount: 0
+    persistence:
+      enabled: false
+
+persistence:
+  enabled: true
+  existingClaim: nextcloud-nextcloud-longhorn
+
+ingress:
+  enabled: true
+  className: cilium
+  path: /
+  pathType: Prefix
+  tls: []
+
+startupProbe:
+  enabled: true
+  initialDelaySeconds: 10
+  periodSeconds: 10
+  timeoutSeconds: 5
+  failureThreshold: 60
+  successThreshold: 1
+
+livenessProbe:
+  enabled: true
+  initialDelaySeconds: 10
+  periodSeconds: 10
+  timeoutSeconds: 5
+  failureThreshold: 6
+  successThreshold: 1
+
+readinessProbe:
+  enabled: true
+  initialDelaySeconds: 10
+  periodSeconds: 10
+  timeoutSeconds: 5
+  failureThreshold: 6
+  successThreshold: 1
